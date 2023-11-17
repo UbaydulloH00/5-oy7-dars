@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+}
+.formall{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 2px 3px 3px gray;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 700px;
+
+}
+form input{
+    padding: 10px;
+    margin-top: 15px;
+    width: 45%;
+    /* outline: none; */
+}
+form input[type='button']{
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+}
+.select{
+    padding: 20px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 2px 3px 3px gray;
+}
+.select select{
+    
+    width: 32%;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+.qidiruv input{ 
+    width: 97%;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.wrapper{
+    padding: 20px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 2px 3px 3px gray;
+}
+.wrapper table{
+   
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}

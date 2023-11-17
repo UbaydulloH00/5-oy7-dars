@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style/style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="formall">
+        <form id="form" >
+            <input type="text" placeholder="Mashina nomini kiriting ..." id="formName">
+            <input type="text" placeholder="Mashina rangini kiriting ..." id="formColor">
+            <input type="number" placeholder="Mashina ishlab chiqariligan yilini kiriting ..." id="formYear">
+            <input type="number" placeholder="Mashina narxini kiriting ..." id="formPrice">
+            <input type="button" value="Qo'shish" id="addbtn">
+        </form>
+    </div>
+    <div class="select">
+        <select name="nameFilter" id="nameFilter">
+            <option  value="" selected disabled>Mashina nomini tanlang...</option>
+            <option value="damas">Damas</option>
+            <option value="nexia">Nexia</option>
+            <option value="nexia-2">Nexia 2</option>
+            <option value="nexia-3">Nexia 3</option>
+            <option value="Gentra">Gentra</option>
+        </select>
+        <select name="yearFilter" id="yearFilter">
+            <option value="" selected disabled>Mashina yilini tanlang...</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017>2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+        </select>
+        <select name="statusFilter" id="statusFilter">
+            <option value="">Holatni tanlang</option>
+            <option value="active">Sotilmagan</option>
+            <option value="inactive">Sotilgan</option>
+        </select>
+      <div class="qidiruv">
+        <input type="text" placeholder="Qiriruv ...">
+      </div>
+    </div>
+    <div class="wrapper">
+        <table>
+            <thead id="thead">
+                <tr>
+                    <th>No</th>
+                    <th>Nomi</th>
+                    <th>Rang</th>
+                    <th>Yilli</th>
+                    <th>Narxi</th>
+                    <th>Holati</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+              
+            </tbody>
+        </table>
+    </div>
+
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
